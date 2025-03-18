@@ -6,7 +6,7 @@
 const cors = require("cors");
 
 const corsOptions = {
-  origin: "https://www.romytony.uk", // Especifica el origen exacto
+  origin: "*", // Permitir acceso desde cualquier origen
   methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
