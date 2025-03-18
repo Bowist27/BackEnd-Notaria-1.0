@@ -21,5 +21,5 @@ app.use("/api/auth", authRoutes);
 app.use("/api/files", uploadRoutes);
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`Servidor TILIIN corriendo en http://0.0.0.0:${PORT}`);
+  console.log(`Servidor TILIN corriendo en http://0.0.0.0:${PORT}`);
 });
