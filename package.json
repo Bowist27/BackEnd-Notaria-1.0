@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Bowist27/BackEnd-Notaria-1.0#readme",
   "dependencies": {
-    "@aws-sdk/lib-storage": "^3.758.0",
+    "@aws-sdk/lib-storage": "^3.772.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
